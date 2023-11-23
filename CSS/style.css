@@ -1,0 +1,51 @@
+/*----- Work Sans font ------*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Inter&family=Lato:wght@400;700;900&family=Lobster&family=Open+Sans&family=Oswald&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Work Sans', sans-serif;
+}
+
+/* --------Header Style---------- */
+header{
+   background: rgba(255, 144, 14, 0.10);
+   padding: 50px 250px;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-title{
+   color:#131313;
+   font-size: 3rem;
+   font-weight: 700;
+}
+nav > ul{
+   display: flex;
+}
+nav li{
+   list-style: none;
+   margin-right: 30px;
+   font-weight: 500;
+   font-size: 1rem;
+}
+nav li a{
+   text-decoration: none;
+   color: #424242;
+}
+.banner-content{
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+.banner-title{
+   color: #131313;
+   font-size: 4rem;
+   font-weight: 700;
+}
+.banner-description{
+   color:#727272;
+}
