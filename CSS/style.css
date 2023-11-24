@@ -90,3 +90,41 @@ nav li a{
       flex-direction: column;
    }
 }
+
+/* Main Section */
+main{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+/* Team Style */
+.team-container{
+   display: flex;
+   align-items: center;
+}
+.team-imgs{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+.team-content{
+   margin-left: 50px;
+}
+.team-content{
+   max-width: 600px;
+}
+.content-title{
+   font-size: 3rem;
+}
+.quick-list{
+   color: #727272;
+   font-weight: 500;
+}
+.of-out{
+   color: #131313;
+   font-weight: 700;
+}
+.feature-tex{
+   color: #FF900E;
+   font-weight: 700;
+}
