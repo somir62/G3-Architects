@@ -126,6 +126,10 @@ main{
    background: #FFF;
    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
+.features-img img{
+   height: 90%;
+   margin-left: 90px;
+}
 .ten-years{
    border-radius: 8px;
    background: #FF900E;
@@ -133,6 +137,8 @@ main{
    width: 342px;
    padding: 40px;
    text-align: center;
+   position: relative;
+   bottom: 100px;
 }
 .ten-years h3{
    font-weight: 700;
@@ -205,13 +211,23 @@ main{
       padding-left: 20px; padding-right: 20px;
       margin-bottom: 30px;
    }
-   .fact-card-container{
+   .fact-card-container, .features{
       flex-direction: column;
       gap: 20px;
    }
    .sponsor-imgs{
       flex-direction: column;
       gap: 3gi0px;
+   }
+   .features-img{
+      width: 90%;
+      margin-left: 0px;
+      
+   }
+   .ten-years{
+      position: static;
+      max-width: 300px;
+      
    }
 }
 
@@ -220,7 +236,7 @@ main{
    header{
       padding: 50px;
    }
-   nav,{
+   nav, .features{
       flex-direction: column;
    }
    .team-container{
